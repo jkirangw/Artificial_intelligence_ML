@@ -29,6 +29,6 @@ with col2:
 #prediction button
 #st.button("Predict type of Iris")
 if st.button("Predict type of Iris"):
-result = predict(np.array([[sepal_l, sepal_w, petal_l, petal_w]]))
+	result = predict(np.array([[sepal_l, sepal_w, petal_l, petal_w]]))
 st.text(result[0])
 
