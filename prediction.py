@@ -16,6 +16,6 @@
 import pickle
 
 def predict(data):
-    with open("rf_model.sav", "rb") as model_file:
-        clf = pickle.load(model_file)
-    return clf.predict(data)
+   with open("rf_model.sav", "rb") as model_file:
+      clf = pickle.load(model_file)
+   return clf.predict(data)
